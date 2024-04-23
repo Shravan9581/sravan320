@@ -1,1 +1,15 @@
-file1
+line-numbers-right-format = "{np:^4}│ "
+[github]
+	user = pksunkara
+	token = token
+[gitflow "prefix"]
+	versiontag = v
+[sequence]
+	editor = interactive-rebase-tool
+[alias]
+	a = add --all
+	ai = add -i
+	#############
+	ap = apply
+	as = apply --stat
+	
